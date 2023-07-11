@@ -1,10 +1,11 @@
 import { useEffect, useReducer } from "react"
-import { todoReducer } from "../08-useReducer/todoReducer";
+import { todoReducer } from "./todoReducer";
 
 export const useTodos = () => {
 
     const initialState = [
         // {
+        //     Example
         //     id: new Date().getTime(),
         //     description: 'Take the soul stone',
         //     done: false,
